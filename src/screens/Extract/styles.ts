@@ -214,6 +214,7 @@ export const PurchaseDetailsContainer = styled.View`
 export const PurchaseBalanceContainer = styled.View`
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 `
 export const PurchaseBalance = styled.Text`
   margin-right: 5px;

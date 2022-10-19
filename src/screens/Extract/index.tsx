@@ -63,7 +63,7 @@ export function Extract() {
     balanceValue: "-R$1500,00",
     colorBalance: "#000",
     IconPath: require("../../../assets/increase.png"),
-    type: "Aplicacao",
+    type: "Aplicaçao",
     details: "Lci Liq 90 Dias Banco Inter Sa",
   };
   const purchases: Array<Purchase> = [
@@ -81,7 +81,7 @@ export function Extract() {
   ];
   function formatDate(value: Date) {
     var days = ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'];
-    var months = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var months = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dec'];
     var month = months[value.getMonth()];
     var day = days[value.getDay()]
     return `${day}, ${value.getDate()} ${month} ${value.getFullYear()}`
@@ -131,7 +131,7 @@ export function Extract() {
       </IconsContainer>
       <BalanceContainer>
         <BalanceContent>
-          <BalanceTitle>Saldo disponivel</BalanceTitle>
+          <BalanceTitle>Saldo disponível</BalanceTitle>
           <BalanceText>Total em conta</BalanceText>
           {showBalance ? (
             <BalanceValue>R$0,00</BalanceValue>

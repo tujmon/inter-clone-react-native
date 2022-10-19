@@ -198,7 +198,7 @@ export function Home() {
               <AdImage source={require("../../../assets/fgts.jpg")} />
             </AdImageContainer>
             <AdBottomContainer>
-              <AdMessage>Antecipacao de{"\n"} FGTS</AdMessage>
+              <AdMessage>Antecipaçao de{"\n"} FGTS</AdMessage>
             </AdBottomContainer>
           </LittleAd>
           <LittleAd>
@@ -255,7 +255,7 @@ export function Home() {
         <ShareContent>
           <ShareTitle>Convide seus amigos</ShareTitle>
           <ShareText>
-            Indique o Inter e chame todo mundo para {"\n"} simlificar a sua
+            Indique o Inter e chame todo mundo para {"\n"} simplificar a sua
             vida!
           </ShareText>
           <ShareButton>
