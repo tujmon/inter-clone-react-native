@@ -39,7 +39,7 @@ export const Avatar = styled.View`
 
 export const Initials = styled.Text`
   color: #f5f6fa;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
 `
 
@@ -47,13 +47,13 @@ export const User = styled.View``
 
 export const Name = styled.Text`
   color: #4d4e60;
-  font-size: 15px;
+  font-size: 0.9375rem;
 `
 
 export const Account = styled.Text`
   color: #000;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 0.9375rem;
 `
 
 export const ChangeAccountButtonContainer = styled.View``
@@ -75,7 +75,7 @@ export const Password = styled.View`
 
 export const PasswordText = styled.Text`
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-bottom: 5px;
 `
 

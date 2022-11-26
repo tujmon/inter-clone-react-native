@@ -19,7 +19,7 @@ export const BalanceTitle = styled.Text`
   margin-bottom: 10px;
 `
 export const BalanceText = styled.Text`
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 300;
   color: #555;
 `
@@ -33,7 +33,7 @@ export const BalanceTextHide = styled.View`
 
 export const BalanceValue = styled.Text`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
 `
 
 export const BalanceContent = styled.View`

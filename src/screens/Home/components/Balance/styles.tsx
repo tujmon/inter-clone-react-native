@@ -6,7 +6,7 @@ export const Container = styled.View`
 `
 export const BalanceText = styled.Text`
   margin-left: 30px;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: bold;
 `
 export const EyeIcon = styled.Image`

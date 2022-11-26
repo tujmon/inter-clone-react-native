@@ -32,6 +32,6 @@ export const IconContainer = styled.View`
 
 export const IconText = styled.Text`
   margin-top: 5px;
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: bold;
 `

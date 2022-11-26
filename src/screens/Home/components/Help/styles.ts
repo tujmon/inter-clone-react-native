@@ -28,7 +28,7 @@ export const HelpTitle = styled.Text`
   font-weight: bold;
 `
 export const HelpText = styled.Text`
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #aaa;
 `
 

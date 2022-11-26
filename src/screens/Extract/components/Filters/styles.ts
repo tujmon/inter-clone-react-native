@@ -35,7 +35,7 @@ export const FilterImage = styled.Image`
   height: 100%;
 `
 export const FilterName = styled.Text`
-  font-size: 12px;
+  font-size: 0.75rem;
 `
 
 export const SearchImage = styled.Image`

@@ -28,5 +28,5 @@ export const ActionImage = styled.Image`
 export const ActionText = styled.Text`
   margin-top: 15px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 0.625rem;
 `

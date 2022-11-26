@@ -19,13 +19,13 @@ export const ShareContent = styled.View`
 
 export const ShareTitle = styled.Text`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 5px;
 `
 
 export const ShareText = styled.Text`
   color: #aaa;
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-bottom: 15px;
 `
 

@@ -22,7 +22,7 @@ export const PurchaseHeader = styled.View`
   margin-bottom: 20px;
 `
 export const PurchaseData = styled.Text`
-  font-size: 12px;
+  font-size: 0.75rem;
 `
 export const PurchaseInfo = styled.View`
   width: 100%;
@@ -52,7 +52,7 @@ export const PurchaseBalanceContainer = styled.View`
 `
 export const PurchaseBalance = styled.Text`
   margin-right: 5px;
-  font-size: 12px;
+  font-size: 0.75rem;
 `
 export const PurchaseBalanceValue = styled.Text<{ balanceColor: string }>`
   color: ${({ balanceColor }) => balanceColor};

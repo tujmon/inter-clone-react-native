@@ -21,7 +21,7 @@ export const BackImage = styled.Image`
 `
 export const PageName = styled.Text`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
 `
 export const ExportExtractImageContainer = styled.View`
   width: 30px;
