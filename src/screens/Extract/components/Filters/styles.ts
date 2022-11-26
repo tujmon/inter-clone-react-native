@@ -25,9 +25,6 @@ padding: 5px;
 padding-left: 10px;
 padding-right: 10px;
 `
-export const FilterText = styled.Text`
-font-size: 12px;
-`
 
 export const FilterImageContainer = styled.View`
 width: 20px;

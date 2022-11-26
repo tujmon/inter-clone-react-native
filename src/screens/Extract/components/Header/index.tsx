@@ -4,15 +4,19 @@ import {  Container,
   PageName,
   ExportExtractImageContainer,
   ExportExtractImage,} from './styles'
+
+import goBack from "../../../../../go-back.png"
+import imageExport from "../../../../../assets/export.png"
+
 export default function Header() {
   return(
     <Container>
         <BackButton>
-          <BackImage source={require("../../../../..//go-back.png")} />
+          <BackImage source={goBack} />
         </BackButton>
         <PageName>Extrato</PageName>
         <ExportExtractImageContainer>
-          <ExportExtractImage source={require("../../../../../assets/export.png")} />
+          <ExportExtractImage source={imageExport} />
         </ExportExtractImageContainer>
     </Container>
   )

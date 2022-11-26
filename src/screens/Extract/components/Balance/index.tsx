@@ -8,6 +8,9 @@ import {  BalanceContainer,
   EyeIcon,
   EyeButton,} from './styles'
 
+import openEye from "../../../../../assets/open-eye.png"
+import closedEye from "../../../../../assets/closed-eye.png"
+
 export default function Balance() {
   const [showBalance, setShowBalance] = useState(false);
   return(
@@ -25,8 +28,8 @@ export default function Balance() {
           <EyeIcon
             source={
               showBalance
-                ? require("../../../../../assets/open-eye.png")
-                : require("../../../../../assets/closed-eye.png")
+                ? openEye
+                : closedEye
             }
           />
         </EyeButton>
