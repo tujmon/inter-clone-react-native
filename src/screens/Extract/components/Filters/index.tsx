@@ -1,0 +1,53 @@
+import {
+  FiltersContainer,
+  FilterContainer,
+  Filter,
+  FilterText,
+  FilterImage,
+  FilterImageContainer,
+  FilterName,
+  SearchImage} from './styles'
+export default function Filters() {
+  return (
+  <FiltersContainer>
+    <FilterContainer>
+      <Filter>
+        <FilterImageContainer>
+          <SearchImage
+            source={require("../../../../../assets/search-black.png")}
+          />
+        </FilterImageContainer>
+      </Filter>
+    </FilterContainer>
+    <FilterContainer>
+      <Filter>
+        <FilterName>Datas</FilterName>
+        <FilterImageContainer>
+          <FilterImage
+            source={require("../../../../../assets/chevron-black-down.png")}
+          />
+        </FilterImageContainer>
+      </Filter>
+    </FilterContainer>
+    <FilterContainer>
+      <Filter>
+        <FilterName>Tipos</FilterName>
+        <FilterImageContainer>
+          <FilterImage
+            source={require("../../../../../assets/chevron-black-down.png")}
+          />
+        </FilterImageContainer>
+      </Filter>
+    </FilterContainer>
+    <FilterContainer>
+      <Filter>
+        <FilterName>Lancamentos</FilterName>
+        <FilterImageContainer>
+          <FilterImage
+            source={require("../../../../../assets/chevron-black-down.png")}
+          />
+        </FilterImageContainer>
+      </Filter>
+    </FilterContainer>
+  </FiltersContainer>)
+}
