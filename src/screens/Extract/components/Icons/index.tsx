@@ -1,10 +1,4 @@
-import {
-  IconsContainer,
-  IconContainer,
-  Icon,
-  IconImage,
-  IconText
-} from './styles'
+import { Container, IconContainer, Icon, IconImage, IconText } from './styles'
 
 import scan from '../../../../../assets/scan.png'
 import receive from '../../../../../assets/receive.png'
@@ -14,7 +8,7 @@ import smartphone from '../../../../../assets/smartphone.png'
 
 export default function Icons() {
   return (
-    <IconsContainer>
+    <Container>
       <IconContainer>
         <Icon>
           <IconImage source={scan} />
@@ -45,6 +39,6 @@ export default function Icons() {
         </Icon>
         <IconText>Recarga</IconText>
       </IconContainer>
-    </IconsContainer>
+    </Container>
   )
 }

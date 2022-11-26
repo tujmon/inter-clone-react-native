@@ -1,6 +1,6 @@
 import styled from 'styled-components/native'
 
-export const IconsContainer = styled.View`
+export const Container = styled.View`
   margin-top: 30px;
   display: flex;
   flex-direction: row;

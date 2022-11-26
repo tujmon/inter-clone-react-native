@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import {
-  BalanceContainer,
-  BalanceTitle,
-  BalanceText,
-  BalanceTextHide,
-  BalanceValue,
-  BalanceContent,
+  Container,
+  Title,
+  Text,
+  TextHide,
+  Value,
+  Content,
   EyeIcon,
   EyeButton
 } from './styles'
@@ -14,21 +14,17 @@ import openEye from '../../../../../assets/open-eye.png'
 import closedEye from '../../../../../assets/closed-eye.png'
 
 export default function Balance() {
-  const [showBalance, setShowBalance] = useState(false)
+  const [show, setShow] = useState(false)
   return (
-    <BalanceContainer>
-      <BalanceContent>
-        <BalanceTitle>Saldo disponível</BalanceTitle>
-        <BalanceText>Total em conta</BalanceText>
-        {showBalance ? (
-          <BalanceValue>R$0,00</BalanceValue>
-        ) : (
-          <BalanceTextHide />
-        )}
-      </BalanceContent>
-      <EyeButton onPress={() => setShowBalance((prevState) => !prevState)}>
-        <EyeIcon source={showBalance ? openEye : closedEye} />
+    <Container>
+      <Content>
+        <Title>Saldo disponível</Title>
+        <Text>Total em conta</Text>
+        {show ? <Value>R$0,00</Value> : <TextHide />}
+      </Content>
+      <EyeButton onPress={() => setShow((prevState) => !prevState)}>
+        <EyeIcon source={show ? openEye : closedEye} />
       </EyeButton>
-    </BalanceContainer>
+    </Container>
   )
 }

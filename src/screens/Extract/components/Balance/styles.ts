@@ -1,6 +1,6 @@
 import styled from 'styled-components/native'
 
-export const BalanceContainer = styled.View`
+export const Container = styled.View`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,29 +14,29 @@ export const BalanceContainer = styled.View`
   border: 1px solid #ccc;
   border-radius: 10px;
 `
-export const BalanceTitle = styled.Text`
+export const Title = styled.Text`
   font-weight: bold;
   margin-bottom: 10px;
 `
-export const BalanceText = styled.Text`
+export const Text = styled.Text`
   font-size: 0.75rem;
   font-weight: 300;
   color: #555;
 `
 
-export const BalanceTextHide = styled.View`
+export const TextHide = styled.View`
   background: #ccc;
   border-radius: 7px;
   width: 80px;
   height: 31px;
 `
 
-export const BalanceValue = styled.Text`
+export const Value = styled.Text`
   font-weight: bold;
   font-size: 1.125rem;
 `
 
-export const BalanceContent = styled.View`
+export const Content = styled.View`
   display: flex;
 `
 export const EyeButton = styled.TouchableOpacity`
