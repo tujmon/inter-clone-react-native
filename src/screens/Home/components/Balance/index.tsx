@@ -11,6 +11,10 @@ type Props = {
   show: Boolean,
   setShowBalance: Dispatch<SetStateAction<boolean>>
 }
+
+import openEye from '../../../../../assets/open-eye.jpg'
+import closedEye from '../../../../../assets/closed-eye.jpg'
+
 export default function Balance({show, setShowBalance}: Props) {
   return (
     <Container>
@@ -19,8 +23,8 @@ export default function Balance({show, setShowBalance}: Props) {
         <EyeIcon
           source={
             show
-              ? require("../../../assets/open-eye.png")
-              : require("../../../assets/closed-eye.png")
+              ? openEye
+              : closedEye
           }
         />
       </ToggleBalance>

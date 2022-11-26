@@ -1,41 +1,56 @@
-import {Container, Ad, AdImageContainer, AdImage, AdBottomContainer,AdMessage, LittleAd, LittleAdContainer} from './styles'
+import {
+  Container,
+  Ad,
+  AdImageContainer,
+  AdImage,
+  AdBottomContainer,
+  AdMessage,
+  LittleAd,
+  LittleAdContainer,
+} from "./styles";
+
+import interShop from "../../../../../assets/inter-shop.jpg";
+import globalAccount from "../../../../../assets/globalAccount.jpg";
+import fgts from "../../../../../assets/fgts.jpg";
+import interDoctor from "../../../../../assets/doutor-inter.jpg";
+
 export default function Ads() {
   return (
     <Container>
-        <Ad>
+      <Ad>
+        <AdImageContainer>
+          <AdImage source={interShop} />
+        </AdImageContainer>
+        <AdBottomContainer>
+          <AdMessage>Inter Shop</AdMessage>
+        </AdBottomContainer>
+      </Ad>
+      <Ad>
+        <AdImageContainer>
+          <AdImage source={globalAccount} />
+        </AdImageContainer>
+        <AdBottomContainer>
+          <AdMessage>Global Account</AdMessage>
+        </AdBottomContainer>
+      </Ad>
+      <LittleAdContainer>
+        <LittleAd>
           <AdImageContainer>
-            <AdImage source={require("../../../assets/inter-shop.jpg")} />
+            <AdImage source={fgts} />
           </AdImageContainer>
           <AdBottomContainer>
-            <AdMessage>Inter Shop</AdMessage>
+            <AdMessage>Antecipaçao de{"\n"} FGTS</AdMessage>
           </AdBottomContainer>
-        </Ad>
-        <Ad>
+        </LittleAd>
+        <LittleAd>
           <AdImageContainer>
-            <AdImage source={require("../../../assets/global-account.jpg")} />
+            <AdImage source={interDoctor} />
           </AdImageContainer>
           <AdBottomContainer>
-            <AdMessage>Global Account</AdMessage>
+            <AdMessage>Doutor Inter</AdMessage>
           </AdBottomContainer>
-        </Ad>
-        <LittleAdContainer>
-          <LittleAd>
-            <AdImageContainer>
-              <AdImage source={require("../../../assets/fgts.jpg")} />
-            </AdImageContainer>
-            <AdBottomContainer>
-              <AdMessage>Antecipaçao de{"\n"} FGTS</AdMessage>
-            </AdBottomContainer>
-          </LittleAd>
-          <LittleAd>
-            <AdImageContainer>
-              <AdImage source={require("../../../assets/doutor-inter.jpg")} />
-            </AdImageContainer>
-            <AdBottomContainer>
-              <AdMessage>Doutor Inter</AdMessage>
-            </AdBottomContainer>
-          </LittleAd>
-        </LittleAdContainer>
-      </Container>
-  )
+        </LittleAd>
+      </LittleAdContainer>
+    </Container>
+  );
 }

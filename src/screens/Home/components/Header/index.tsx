@@ -11,23 +11,30 @@ import {
   SearchIcon,
   More,
 } from "./styles";
+
+import logo from '../../../../../assets/logo.jpg'
+import brazil from '../../../../../assets/brazil.jpg'
+import usa from '../../../../../assets/usa.jpg'
+import search from '../../../../../assets/search.jpg'
+import more from '../../../../../assets/more.jpg'
+
 export default function Header() {
   return (
     <Container>
       <Info>
-        <Logo source={require("../../../assets/logo.png")} />
+        <Logo source={logo} />
         <Countries>
           <BrazilContainer>
-            <Brazil source={require("../../../assets/brazil.png")} />
+            <Brazil source={brazil} />
           </BrazilContainer>
           <UsaContainer>
-            <Usa source={require("../../../assets/usa.png")} />
+            <Usa source={usa} />
           </UsaContainer>
         </Countries>
       </Info>
       <Options>
-        <SearchIcon source={require("../../../assets/search.png")} />
-        <More source={require("../../../assets/more.png")} />
+        <SearchIcon source={search} />
+        <More source={more} />
       </Options>
     </Container>
   );
