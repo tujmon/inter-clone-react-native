@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native'
 
 export const Container = styled.View`
   margin-top: 25px;
@@ -7,7 +7,7 @@ export const Container = styled.View`
   width: 100%;
   justify-content: center;
   flex-direction: row;
-`;
+`
 export const Action = styled.View`
   display: flex;
   margin-left: 4px;
@@ -20,13 +20,13 @@ export const Action = styled.View`
   padding-bottom: 30px;
   border: 1px #ccc;
   border-radius: 15px;
-`;
+`
 export const ActionImage = styled.Image`
   width: 35px;
   height: 35px;
-`;
+`
 export const ActionText = styled.Text`
   margin-top: 15px;
   font-weight: bold;
   font-size: 10px;
-`;
+`

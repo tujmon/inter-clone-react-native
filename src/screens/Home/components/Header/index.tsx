@@ -9,8 +9,8 @@ import {
   Info,
   Options,
   SearchIcon,
-  More,
-} from "./styles";
+  More
+} from './styles'
 
 import logo from '../../../../../assets/logo.jpg'
 import brazil from '../../../../../assets/brazil.jpg'
@@ -37,5 +37,5 @@ export default function Header() {
         <More source={more} />
       </Options>
     </Container>
-  );
+  )
 }

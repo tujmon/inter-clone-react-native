@@ -17,15 +17,15 @@ import {
   EyeIconPassword,
   SentButton,
   ButtonText,
-  ForgotPassword,
-} from "./styles";
+  ForgotPassword
+} from './styles'
 
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation } from '@react-navigation/native'
 import closedEye from '../../../../../assets/closed-eye.png'
 export default function Cards() {
-  const navigation = useNavigation();
+  const navigation = useNavigation()
   function handleNewScreen() {
-    navigation.navigate("home");
+    navigation.navigate('home')
   }
   return (
     <Container>
@@ -57,5 +57,5 @@ export default function Cards() {
         <ForgotPassword>Esqueci minha senha</ForgotPassword>
       </Card>
     </Container>
-  );
+  )
 }

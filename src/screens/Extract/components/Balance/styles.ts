@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native'
 
 export const BalanceContainer = styled.View`
   display: flex;
@@ -29,7 +29,7 @@ export const BalanceTextHide = styled.View`
   border-radius: 7px;
   width: 80px;
   height: 31px;
-`;
+`
 
 export const BalanceValue = styled.Text`
   font-weight: bold;
@@ -45,6 +45,6 @@ export const EyeButton = styled.TouchableOpacity`
 `
 export const EyeIcon = styled.Image`
   align-self: flex-start;
-  width:100%;
+  width: 100%;
   height: 100%;
 `

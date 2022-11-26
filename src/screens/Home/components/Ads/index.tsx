@@ -6,13 +6,13 @@ import {
   AdBottomContainer,
   AdMessage,
   LittleAd,
-  LittleAdContainer,
-} from "./styles";
+  LittleAdContainer
+} from './styles'
 
-import interShop from "../../../../../assets/inter-shop.jpg";
-import globalAccount from "../../../../../assets/globalAccount.jpg";
-import fgts from "../../../../../assets/fgts.jpg";
-import interDoctor from "../../../../../assets/doutor-inter.jpg";
+import interShop from '../../../../../assets/inter-shop.jpg'
+import globalAccount from '../../../../../assets/globalAccount.jpg'
+import fgts from '../../../../../assets/fgts.jpg'
+import interDoctor from '../../../../../assets/doutor-inter.jpg'
 
 export default function Ads() {
   return (
@@ -39,7 +39,7 @@ export default function Ads() {
             <AdImage source={fgts} />
           </AdImageContainer>
           <AdBottomContainer>
-            <AdMessage>Antecipaçao de{"\n"} FGTS</AdMessage>
+            <AdMessage>Antecipaçao de{'\n'} FGTS</AdMessage>
           </AdBottomContainer>
         </LittleAd>
         <LittleAd>
@@ -52,5 +52,5 @@ export default function Ads() {
         </LittleAd>
       </LittleAdContainer>
     </Container>
-  );
+  )
 }

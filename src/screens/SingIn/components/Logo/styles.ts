@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native'
 
 export const LogoContainer = styled.View`
   height: 23%;
@@ -7,8 +7,8 @@ export const LogoContainer = styled.View`
 `
 
 export const LogoImage = styled.Image.attrs({
-  resizeMode: "contain",
+  resizeMode: 'contain'
 })`
   width: 100px;
   flex: 1;
-`;
+`
